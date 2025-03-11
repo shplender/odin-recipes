@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.recipe-name {
+    text-align: center;
+}
+
+.description {
+    background-color: burlywood;
+}
+h1 {
+    color: darkolivegreen;
+    text-align: center;
+    text-decoration: green overline underline;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.link-list {
+    font-size: 33px;
+    background-color: chocolate;
+}
+
+.steps > li {
+    font-weight: bold;
+    /* text-indent: 2em hanging; */
+}
+
+p {
+    margin: 0;
+    text-indent: 2em each-line;
+}
