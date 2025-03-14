@@ -1,3 +1,14 @@
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+
 body {
     background-color: blanchedalmond;
 }
@@ -10,18 +21,36 @@ body {
     background-color: burlywood;
 }
 h1 {
-    color: darkolivegreen;
+    color: #6b3d00;
     text-align: center;
-    text-decoration: green overline underline;
+    text-decoration: underline overline;
     font-size: 43px;
     font-weight: 900;
 }
 
 .link-list {
-    font-size: 33px;
-    background-color: chocolate;
+    font-size: 27px;
+    list-style: none;
+    padding: 20px;
 }
 
+a {
+    text-align: center;
+    text-decoration: none;
+    border: thin solid black;
+    padding: 10px;
+    background-color: #ffc32d;
+    margin: 20px 20px;
+    display: block;
+}
+
+a:hover {
+    background-color: #e89c2a;
+}
+
+img {
+    width: 100%;
+}
 .steps > li {
     font-weight: bold;
     /* text-indent: 2em hanging; */
@@ -31,3 +60,9 @@ p {
     margin: 0;
     text-indent: 2em each-line;
 }
+
+/* .teriyaki-img { */
+/*     width: 30%; */
+/*     /\* padding: 0px 100px; *\/ */
+/*     margin-left: 50%; */
+/* } */
